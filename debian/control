@@ -1,0 +1,13 @@
+Source: little-debbie
+Section: devel
+Priority: extra
+Maintainer: Kevin Sawicki <kevinsawicki@gmail.com>
+Standards-Version: 3.8.3
+Build-Depends: debhelper (>= 7)
+
+Package: little-debbie
+Architecture: any
+Conflicts: debbie
+Provides: debbie
+Replaces: debbie
+Description: DEB build example
